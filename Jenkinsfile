@@ -1,5 +1,5 @@
 pipeline {
-  agent { label master }
+  agent { node master }
    stages {
       stage ("Env Variables"){
         steps {
